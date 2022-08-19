@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/MpAlfano/TS-analyze-report-data#readme",
   "dependencies": {
+    "@types/node": "^18.7.7",
     "concurrently": "^7.3.0",
     "nodemon": "^2.0.19"
   }
