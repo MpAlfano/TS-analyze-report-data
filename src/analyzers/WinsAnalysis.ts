@@ -7,7 +7,7 @@ export class WinsAnalysis implements Analyzer {
 
   run(matches: MatchData[]): string {
     let wins = 0;
-    let team = "Man United";
+    let team = this.team;
 
     for (let match of matches) {
       if (match[1] === team && match[5] === MatchResult.HomeWin) {
